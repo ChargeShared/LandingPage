@@ -1,6 +1,5 @@
 import './style.css'
 import githublogo from './src/img/25231.png'
-import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -14,4 +13,4 @@ document.querySelector('#app').innerHTML = `
   </div>
 `
 
-setupCounter(document.querySelector('#counter'))
+
