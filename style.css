@@ -46,12 +46,14 @@ h1 {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
+  filter: invert(100%);
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+    filter: invert(100%) drop-shadow(0 0 2em #646cffaa);
+    
 }
 .logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
+    filter: invert(100%) drop-shadow(0 0 2em #f7df1eaa);
 }
 
 
